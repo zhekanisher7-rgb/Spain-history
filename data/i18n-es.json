@@ -1,0 +1,72 @@
+{
+  "site": {
+    "title": "Historia de España",
+    "tagline": "Historia de España",
+    "subtitle": "Guerras, revoluciones y batallas desde Iberia hasta hoy",
+    "ornament": "Siglo de Oro · Austrias · Imperio"
+  },
+  "nav": {
+    "eras": "Épocas",
+    "wars": "Guerras",
+    "personajes": "Personajes",
+    "mapas": "Mapas",
+    "imperio": "Imperio",
+    "home": "Inicio",
+    "search": "Buscar…",
+    "menu": "Menú"
+  },
+  "pages": {
+    "antigua": "Antigüedad",
+    "edadMedia": "Edad Media",
+    "reconquista": "Reconquista",
+    "habsburgos": "Austrias",
+    "armada": "Grande Armada",
+    "borbones": "Borbones",
+    "sucesion": "Guerra de Sucesión",
+    "napoleon": "Guerra de la Independencia",
+    "carlistas": "Guerras Carlistas",
+    "siglos": "Siglos XIX–XX",
+    "guerra1898": "Guerra de 1898",
+    "guerraCivil": "Guerra Civil",
+    "contemporanea": "Época contemporánea",
+    "personajes": "Personajes",
+    "mapas": "Mapas del imperio",
+    "imperio": "Imperio español"
+  },
+  "home": {
+    "erasTitle": "Épocas",
+    "erasLead": "Elija un período — de la Hispania romana a la España democrática.",
+    "timelineTitle": "Cronología",
+    "timelineLead": "Grandes guerras y giros. Pulse un evento para detalles.",
+    "warsTitle": "Guerras clave",
+    "filterAll": "Todas",
+    "filterAntigua": "Antigüedad",
+    "filterMedia": "Medieval",
+    "filterHabsburg": "Austrias",
+    "filterBourbon": "Borbones",
+    "filterXix": "XIX–XX",
+    "filterCivil": "Guerra Civil",
+    "filterNow": "Contemporánea"
+  },
+  "timeline": {
+    "readMore": "Más →"
+  },
+  "search": {
+    "empty": "Sin resultados"
+  },
+  "footer": {
+    "explore": "Secciones",
+    "wars": "Guerras y campañas",
+    "about": "Acerca de",
+    "aboutText": "Sitio estático educativo sobre la historia militar y política de España. Tono académico neutral.",
+    "rights": "Historia de España — proyecto educativo. Mapas aproximados."
+  },
+  "map": {
+    "legendSpanish": "Control español",
+    "legendOther": "Otras tierras",
+    "legendOcean": "Océano",
+    "zoomIn": "Acercar",
+    "zoomOut": "Alejar",
+    "zoomReset": "Restablecer"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "site": {
+    "title": "History of Spain",
+    "tagline": "Historia de España",
+    "subtitle": "Wars, revolutions and battles from Iberia to the present",
+    "ornament": "Golden Age · Habsburgs · Empire"
+  },
+  "nav": {
+    "eras": "Eras",
+    "wars": "Wars",
+    "personajes": "Figures",
+    "mapas": "Maps",
+    "imperio": "Empire",
+    "home": "Home",
+    "search": "Search…",
+    "menu": "Menu"
+  },
+  "pages": {
+    "antigua": "Antiquity",
+    "edadMedia": "Middle Ages",
+    "reconquista": "Reconquista",
+    "habsburgos": "Habsburgs",
+    "armada": "Spanish Armada",
+    "borbones": "Bourbons",
+    "sucesion": "War of Succession",
+    "napoleon": "Peninsular War",
+    "carlistas": "Carlist Wars",
+    "siglos": "19th–20th centuries",
+    "guerra1898": "War of 1898",
+    "guerraCivil": "Civil War",
+    "contemporanea": "Contemporary era",
+    "personajes": "Historical figures",
+    "mapas": "Empire maps",
+    "imperio": "Spanish Empire"
+  },
+  "home": {
+    "erasTitle": "Eras",
+    "erasLead": "Choose a period — from Roman Hispania to democratic Spain.",
+    "timelineTitle": "Timeline",
+    "timelineLead": "Major wars and turning points. Click an event for details.",
+    "warsTitle": "Key wars",
+    "filterAll": "All",
+    "filterAntigua": "Ancient",
+    "filterMedia": "Medieval",
+    "filterHabsburg": "Habsburg",
+    "filterBourbon": "Bourbon",
+    "filterXix": "19th–20th",
+    "filterCivil": "Civil War",
+    "filterNow": "Contemporary"
+  },
+  "timeline": {
+    "readMore": "Read more →"
+  },
+  "search": {
+    "empty": "No results"
+  },
+  "footer": {
+    "explore": "Sections",
+    "wars": "Wars & campaigns",
+    "about": "About",
+    "aboutText": "Educational static site on Spain’s military and political history. Neutral academic tone.",
+    "rights": "Historia de España — educational project. Map extents are approximate."
+  },
+  "map": {
+    "legendSpanish": "Spanish control",
+    "legendOther": "Other land",
+    "legendOcean": "Ocean",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "zoomReset": "Reset"
+  }
+}

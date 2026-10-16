@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="История Испании — Historia de España">
+<title>История Испании · Historia de España</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/timeline.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="index.html">
+      <img class="logo-mark" src="assets/heraldry.svg" alt="" width="40" height="40" loading="lazy">
+      <span class="logo-text"><span data-i18n="site.title">История Испании</span><small data-i18n="site.tagline">Historia de España</small></span>
+    </a>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav" data-i18n="nav.menu">Меню</button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary">
+      <a href="index.html" data-i18n="nav.home">Главная</a>
+      <div class="nav-drop">
+        <button type="button" data-i18n="nav.eras">Эпохи</button>
+        <div class="nav-drop-menu" role="menu">
+          <a href="pages/antigua.html" data-i18n="pages.antigua">Древность</a>
+          <a href="pages/edad-media.html" data-i18n="pages.edadMedia">Средние века</a>
+          <a href="pages/reconquista.html" data-i18n="pages.reconquista">Реконкиста</a>
+          <a href="pages/habsburgos.html" data-i18n="pages.habsburgos">Габсбурги</a>
+          <a href="pages/borbones.html" data-i18n="pages.borbones">Бурбоны</a>
+          <a href="pages/siglos-xix-xx.html" data-i18n="pages.siglos">XIX–XX века</a>
+          <a href="pages/contemporanea.html" data-i18n="pages.contemporanea">Современность</a>
+        </div>
+      </div>
+      <div class="nav-drop">
+        <button type="button" data-i18n="nav.wars">Войны</button>
+        <div class="nav-drop-menu" role="menu">
+          <a href="pages/reconquista.html" data-i18n="pages.reconquista">Реконкиста</a>
+          <a href="pages/armada.html" data-i18n="pages.armada">Великая Армада</a>
+          <a href="pages/sucesion.html" data-i18n="pages.sucesion">Война за наследство</a>
+          <a href="pages/napoleon.html" data-i18n="pages.napoleon">Пиренейская война</a>
+          <a href="pages/carlistas.html" data-i18n="pages.carlistas">Карлистские войны</a>
+          <a href="pages/guerra-1898.html" data-i18n="pages.guerra1898">Война 1898</a>
+          <a href="pages/guerra-civil.html" data-i18n="pages.guerraCivil">Гражданская война</a>
+        </div>
+      </div>
+      <a href="pages/personajes.html" data-i18n="nav.personajes">Персонажи</a>
+      <a href="pages/mapas.html" data-i18n="nav.mapas">Карты</a>
+      <a href="pages/imperio.html" data-i18n="nav.imperio">Империя</a>
+    </nav>
+    <div class="header-tools">
+      <div class="lang-switcher" role="group" aria-label="Language">
+        <button type="button" data-lang="ru" aria-pressed="true">RU</button>
+        <button type="button" data-lang="es" aria-pressed="false">ES</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <div class="search-wrap">
+        <label class="visually-hidden" for="site-search" style="position:absolute;left:-9999px" data-i18n="nav.search">Поиск…</label>
+        <input id="site-search" type="search" data-i18n-placeholder="nav.search" placeholder="Поиск…" autocomplete="off" aria-autocomplete="list" aria-controls="search-results">
+        <div id="search-results" class="search-results" role="listbox"></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <img class="heraldry" src="assets/heraldry.svg" alt="" width="80" height="80">
+    <h1 data-i18n="site.title">История Испании</h1>
+    <p class="subtitle" data-i18n="site.subtitle">Войны, революции и битвы от Иберии до современности</p>
+    <div class="hero-ornament" data-i18n="site.ornament">Золотой век · Габсбурги · Империя</div>
+  </div>
+</section>
+<main id="main">
+  <div class="container">
+    <h2 class="section-title fade-in" data-i18n="home.erasTitle">Эпохи</h2>
+    <div class="ornament-line">✦</div>
+    <p class="section-lead fade-in" data-i18n="home.erasLead">Выберите период — от римской Hispania до демократической Испании.</p>
+    <div class="era-grid">
+      <a class="era-card fade-in" href="pages/antigua.html"><h3 data-i18n="pages.antigua">Древность</h3><div class="era-years">~200 до н.э. – V в.</div><p>Иберы, Карфаген, римская Hispania, пунические и гражданские войны.</p></a>
+      <a class="era-card fade-in" href="pages/edad-media.html"><h3 data-i18n="pages.edadMedia">Средние века</h3><div class="era-years">409 – 1492</div><p>Вестготы, аль-Андалус, христианские королевства и Реконкиста.</p></a>
+      <a class="era-card fade-in" href="pages/habsburgos.html"><h3 data-i18n="pages.habsburgos">Габсбурги</h3><div class="era-years">1516 – 1700</div><p>Карл V, Филипп II, терции, Армада, Восьмидесятилетняя война.</p></a>
+      <a class="era-card fade-in" href="pages/borbones.html"><h3 data-i18n="pages.borbones">Бурбоны</h3><div class="era-years">1700 – 1808</div><p>Война за наследство, реформы Просвещения, канун кризиса.</p></a>
+      <a class="era-card fade-in" href="pages/siglos-xix-xx.html"><h3 data-i18n="pages.siglos">XIX–XX века</h3><div class="era-years">1808 – 1975</div><p>Наполеон, карлисты, 1898, Риф, Гражданская война, франкизм.</p></a>
+      <a class="era-card fade-in" href="pages/contemporanea.html"><h3 data-i18n="pages.contemporanea">Современность</h3><div class="era-years">1975 –</div><p>Переход к демократии, НАТО, ЕС, автономии.</p></a>
+    </div>
+
+    <h2 class="section-title fade-in" style="margin-top:3rem" data-i18n="home.warsTitle">Ключевые войны</h2>
+    <div class="ornament-line">⚔</div>
+    <div class="era-grid">
+      <a class="era-card fade-in" href="pages/reconquista.html"><h3>Реконкиста</h3><div class="era-years">~722 – 1492</div><p>Ковадонга, Лас-Навас, Гранада.</p></a>
+      <a class="era-card fade-in" href="pages/armada.html"><h3>Великая Армада</h3><div class="era-years">1588</div><p>Кампания Филиппа II против Англии.</p></a>
+      <a class="era-card fade-in" href="pages/sucesion.html"><h3>Война за наследство</h3><div class="era-years">1701 – 1714</div><p>Утрехт и смена династии.</p></a>
+      <a class="era-card fade-in" href="pages/napoleon.html"><h3>Пиренейская война</h3><div class="era-years">1808 – 1814</div><p>2 мая, Байлен, Веллингтон.</p></a>
+      <a class="era-card fade-in" href="pages/carlistas.html"><h3>Карлистские войны</h3><div class="era-years">1833 – 1876</div><p>Три династические войны.</p></a>
+      <a class="era-card fade-in" href="pages/guerra-civil.html"><h3>Гражданская война</h3><div class="era-years">1936 – 1939</div><p>Республика, мятеж, франкистская победа.</p></a>
+    </div>
+  </div>
+
+  <section class="timeline-section container container-wide" aria-labelledby="tl-heading">
+    <h2 id="tl-heading" class="section-title fade-in" data-i18n="home.timelineTitle">Хронология</h2>
+    <div class="ornament-line">◆</div>
+    <p class="section-lead fade-in" data-i18n="home.timelineLead">Крупные войны и переломы. Нажмите событие для подробностей.</p>
+    <div id="timeline-filters" class="filter-bar" role="group" aria-label="Filters">
+      <button type="button" data-filter="all" aria-pressed="true" data-i18n="home.filterAll">Все</button>
+      <button type="button" data-filter="antigua" aria-pressed="false" data-i18n="home.filterAntigua">Древность</button>
+      <button type="button" data-filter="media" aria-pressed="false" data-i18n="home.filterMedia">Средневековье</button>
+      <button type="button" data-filter="reconquista" aria-pressed="false">Реконкиста</button>
+      <button type="button" data-filter="habsburg" aria-pressed="false" data-i18n="home.filterHabsburg">Габсбурги</button>
+      <button type="button" data-filter="bourbon" aria-pressed="false" data-i18n="home.filterBourbon">Бурбоны</button>
+      <button type="button" data-filter="xix" aria-pressed="false" data-i18n="home.filterXix">XIX–XX</button>
+      <button type="button" data-filter="civil" aria-pressed="false" data-i18n="home.filterCivil">Гражд. война</button>
+      <button type="button" data-filter="contemporanea" aria-pressed="false" data-i18n="home.filterNow">Современность</button>
+    </div>
+    <div id="timeline" class="timeline" aria-live="polite"></div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <h4 data-i18n="footer.explore">Разделы</h4>
+      <a href="pages/antigua.html" data-i18n="pages.antigua">Древность</a>
+      <a href="pages/habsburgos.html" data-i18n="pages.habsburgos">Габсбурги</a>
+      <a href="pages/imperio.html" data-i18n="pages.imperio">Империя</a>
+      <a href="pages/personajes.html" data-i18n="pages.personajes">Персонажи</a>
+    </div>
+    <div>
+      <h4 data-i18n="footer.wars">Войны и кампании</h4>
+      <a href="pages/armada.html" data-i18n="pages.armada">Великая Армада</a>
+      <a href="pages/napoleon.html" data-i18n="pages.napoleon">Пиренейская война</a>
+      <a href="pages/guerra-civil.html" data-i18n="pages.guerraCivil">Гражданская война</a>
+      <a href="pages/guerra-1898.html" data-i18n="pages.guerra1898">Война 1898</a>
+    </div>
+    <div>
+      <h4 data-i18n="footer.about">О сайте</h4>
+      <p data-i18n="footer.aboutText" style="font-size:0.9rem;line-height:1.5;margin:0">Статический образовательный сайт о военной и политической истории Испании. Нейтральный академический тон.</p>
+    </div>
+  </div>
+  <div class="footer-bottom" data-i18n="footer.rights">Historia de España — учебный проект. Данные карт приблизительны.</div>
+</footer>
+<script src="js/i18n.js" defer></script>
+<script src="js/main.js" defer></script>
+<script src="js/search.js" defer></script>
+<script src="js/timeline.js" defer></script>
+</body>
+</html>

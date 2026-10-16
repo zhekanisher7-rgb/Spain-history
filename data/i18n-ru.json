@@ -1,0 +1,72 @@
+{
+  "site": {
+    "title": "История Испании",
+    "tagline": "Historia de España",
+    "subtitle": "Войны, революции и битвы от Иберии до современности",
+    "ornament": "Золотой век · Габсбурги · Империя"
+  },
+  "nav": {
+    "eras": "Эпохи",
+    "wars": "Войны",
+    "personajes": "Персонажи",
+    "mapas": "Карты",
+    "imperio": "Империя",
+    "home": "Главная",
+    "search": "Поиск…",
+    "menu": "Меню"
+  },
+  "pages": {
+    "antigua": "Древность",
+    "edadMedia": "Средние века",
+    "reconquista": "Реконкиста",
+    "habsburgos": "Габсбурги",
+    "armada": "Великая Армада",
+    "borbones": "Бурбоны",
+    "sucesion": "Война за наследство",
+    "napoleon": "Пиренейская война",
+    "carlistas": "Карлистские войны",
+    "siglos": "XIX–XX века",
+    "guerra1898": "Война 1898",
+    "guerraCivil": "Гражданская война",
+    "contemporanea": "Современность",
+    "personajes": "Персонажи",
+    "mapas": "Карты империй",
+    "imperio": "Испанская империя"
+  },
+  "home": {
+    "erasTitle": "Эпохи",
+    "erasLead": "Выберите период — от римской Hispania до демократической Испании.",
+    "timelineTitle": "Хронология",
+    "timelineLead": "Крупные войны и переломы. Нажмите событие для подробностей.",
+    "warsTitle": "Ключевые войны",
+    "filterAll": "Все",
+    "filterAntigua": "Древность",
+    "filterMedia": "Средневековье",
+    "filterHabsburg": "Габсбурги",
+    "filterBourbon": "Бурбоны",
+    "filterXix": "XIX–XX",
+    "filterCivil": "Гражд. война",
+    "filterNow": "Современность"
+  },
+  "timeline": {
+    "readMore": "Подробнее →"
+  },
+  "search": {
+    "empty": "Ничего не найдено"
+  },
+  "footer": {
+    "explore": "Разделы",
+    "wars": "Войны и кампании",
+    "about": "О сайте",
+    "aboutText": "Статический образовательный сайт о военной и политической истории Испании. Нейтральный академический тон.",
+    "rights": "Historia de España — учебный проект. Данные карт приблизительны."
+  },
+  "map": {
+    "legendSpanish": "Испанский контроль",
+    "legendOther": "Прочие земли",
+    "legendOcean": "Океан",
+    "zoomIn": "Крупнее",
+    "zoomOut": "Мельче",
+    "zoomReset": "Сброс"
+  }
+}

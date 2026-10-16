@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Castile and León heraldry">
+  <defs>
+    <linearGradient id="gGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8D48B"/>
+      <stop offset="100%" stop-color="#C9A227"/>
+    </linearGradient>
+  </defs>
+  <path fill="#6B0F1A" stroke="#C9A227" stroke-width="2.5"
+        d="M60 8 L108 22 L108 62 Q108 95 60 112 Q12 95 12 62 L12 22 Z"/>
+  <rect x="22" y="24" width="36" height="32" fill="#E8D48B" opacity="0.15"/>
+  <g fill="#C9A227" transform="translate(28,28) scale(0.55)">
+    <rect x="8" y="22" width="40" height="28" rx="1"/>
+    <rect x="4" y="14" width="12" height="10"/>
+    <rect x="22" y="10" width="12" height="14"/>
+    <rect x="40" y="14" width="12" height="10"/>
+    <rect x="14" y="30" width="10" height="12" fill="#6B0F1A"/>
+    <rect x="32" y="30" width="10" height="12" fill="#6B0F1A"/>
+  </g>
+  <g fill="#C9A227" transform="translate(68,26) scale(0.48)">
+    <ellipse cx="28" cy="42" rx="18" ry="14"/>
+    <circle cx="36" cy="22" r="12"/>
+    <path d="M44 16 L58 8 L52 22 Z"/>
+    <path d="M20 18 L8 10 L14 24 Z"/>
+    <path d="M14 48 L4 58 L18 54"/>
+    <path d="M40 50 L50 62 L42 52"/>
+    <circle cx="40" cy="20" r="2" fill="#6B0F1A"/>
+  </g>
+  <g fill="#C9A227" opacity="0.85" transform="translate(68,58) scale(0.42)">
+    <rect x="8" y="22" width="40" height="28" rx="1"/>
+    <rect x="4" y="14" width="12" height="10"/>
+    <rect x="22" y="10" width="12" height="14"/>
+    <rect x="40" y="14" width="12" height="10"/>
+  </g>
+  <g fill="#C9A227" opacity="0.85" transform="translate(26,56) scale(0.4)">
+    <ellipse cx="28" cy="42" rx="18" ry="14"/>
+    <circle cx="36" cy="22" r="12"/>
+    <path d="M44 16 L58 8 L52 22 Z"/>
+  </g>
+  <path fill="url(#gGold)" d="M30 14 L38 4 L48 12 L60 2 L72 12 L82 4 L90 14 L90 18 L30 18 Z"/>
+</svg>
